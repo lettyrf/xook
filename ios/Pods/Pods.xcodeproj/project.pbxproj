@@ -19,116 +19,159 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		06E3D88E92DE61F53F1F859A9F71D683 /* flutter_bluetooth_serial-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7742F79F48B597A40906071F62EC5F1 /* flutter_bluetooth_serial-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0981E0F4AB7F96CF78EBECBC941E9E49 /* MTBBarcodeScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50606C5E9C2BEE3A681D7DF31B20B871 /* MTBBarcodeScanner-dummy.m */; };
-		1CDE0EC35900013B69174EBFF8754939 /* BarcodeScannerViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 944E04090CE605D7F2CAFD8D3E39F64C /* BarcodeScannerViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2501AE67DB525F7B461E06AB95283148 /* Pods-Runner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A8F540AF66B30756A0D2B81FF9757C2 /* MTBBarcodeScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6513E3AD72D0723AFCFFF716560927 /* MTBBarcodeScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43951993A160CF58C854EAA594EA6E8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0FE4792697FC4DAB0F763545BE0D5C /* Foundation.framework */; };
-		497F88424970BE3461EC175F7687CBD2 /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */; };
-		636CC97A85A30EC6BF43D744F2CE1DF5 /* barcode_scan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC45817B4F2436F5AD2D2610471D67C /* barcode_scan-dummy.m */; };
-		70A5663475079A176B2C5756AC273851 /* ScannerOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 087D5FBA440C8E9E0708FA659A3F334C /* ScannerOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73EEA3155BE5258FB098582011F6ECC9 /* ScannerOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF060DCD439F978450E9067A016F93A /* ScannerOverlay.m */; };
-		79C61E24C9883FC48EE454723F560502 /* BarcodeScanPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF5C5160E818E18345B6F47F7F73BAB /* BarcodeScanPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F2040678D4B59D425550B5A662A73D2 /* BarcodeScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073884E5B33839775CA3D67753DAD258 /* BarcodeScannerViewController.m */; };
-		937040FE69DC1B674D5B8A5CB11C3C53 /* BarcodeScannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2D32D95F00B2DF0116AC6FE98EE7E9 /* BarcodeScannerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55874C0B53BB2CBA4C065E8FD11CB49A /* SwiftFlutterQrPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E23E8FDC3F74012F38FF4FEB7B5DF92 /* SwiftFlutterQrPlugin.swift */; };
+		68781755617528301D19F49651EF369E /* qr_code_scanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0DDAB74C32F8C5630B32367D08F381D /* qr_code_scanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72CC510246E2863682DD664ED2AE1A62 /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504FFC783519CB8122E6807F2662DEB4 /* QRView.swift */; };
+		763BEBBFAB917CC81F2C30D463C5D636 /* FlutterBluetoothSerialPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B360166847A76B631341AB6144691C /* FlutterBluetoothSerialPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76E68DA7554E349E0AB4E766FA52B1D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0FE4792697FC4DAB0F763545BE0D5C /* Foundation.framework */; };
 		956A3C7642F436C55A1109E31A05D232 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380D50F28E4C1F8B519D1CD471802157 /* AVFoundation.framework */; };
 		A34F46689E61FE828265C560FF9889EE /* MTBBarcodeScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C11AB5AB257041D0A0BA223064DEA8 /* MTBBarcodeScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8C9AA7CE85885B29FEEFFCD59B7C49C /* Pods-Runner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5DD0F2460ADEA38E2EE7F480ECF41A4 /* FlutterQrPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 704FE25870AF95E35FB50792F5D34359 /* FlutterQrPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C89386DDFEC11144F321DD4C15A5B156 /* flutter_bluetooth_serial-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB578CC52F5516160A1E1FA8C236549 /* flutter_bluetooth_serial-dummy.m */; };
+		D1561C56CD87C200771E4BEC0C6EF01C /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */; };
+		D21AD181BA186246053C8495EAF192E5 /* qr_code_scanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A67F6F94BC1C9E4EC79A28691F29D8 /* qr_code_scanner-dummy.m */; };
 		D92AC276653E986E28DAAC617D7EC349 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0957685B0E749704E4B394F0C2EAC062 /* QuartzCore.framework */; };
-		DF95D8FCADBE4D704965AAE9849EF877 /* barcode_scan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D15817613AD751FD90BAFA8A0169B9 /* barcode_scan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF9F0037DBB1128FC4E0D61FB032F7A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0FE4792697FC4DAB0F763545BE0D5C /* Foundation.framework */; };
+		E3C0F215399C9D32D8A19F7B1BEA8691 /* QRViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3C497C6035DFB9A801D106FDD3FC16 /* QRViewFactory.swift */; };
+		E3FAAF7FD2D02A0B8DAB9E2B97031D4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0FE4792697FC4DAB0F763545BE0D5C /* Foundation.framework */; };
 		E5A50FFB677C64E7BD1528ADFAD9EB5E /* MTBBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D8C456A51E3442CB5907B5DBDEA4CB /* MTBBarcodeScanner.m */; };
-		EA80865BE9F7A87BD16A8991B9E3E335 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0FE4792697FC4DAB0F763545BE0D5C /* Foundation.framework */; };
-		ED2F6C7F5FA88DC3E7436C310310372E /* MTBBarcodeScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8BB1D50D0BE2122A956A5779CAF37A /* MTBBarcodeScanner.framework */; };
-		EE38A7DAC039DB75D39C3B45D34B8AF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0FE4792697FC4DAB0F763545BE0D5C /* Foundation.framework */; };
-		F766D617C51DA86B4C30F40F96C0FCD0 /* BarcodeScanPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C313AFAADB2E437A12F0DC12D6953264 /* BarcodeScanPlugin.m */; };
+		E6A9A9071B276F61202F0D2D66F65616 /* MTBBarcodeScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8BB1D50D0BE2122A956A5779CAF37A /* MTBBarcodeScanner.framework */; };
+		F70B126617002A0B73C794475DC95FD3 /* FlutterQrPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AF7E218FAF227F66BAFEF5B54FE953 /* FlutterQrPlugin.m */; };
+		FE80BFFB96440445544F1BE1DEA705B1 /* FlutterBluetoothSerialPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5232B7F20D5228E8EE423EEC925A3284 /* FlutterBluetoothSerialPlugin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		17ADDABD907C02F97EDAC49D984EE464 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
-			remoteInfo = Flutter;
-		};
-		1D68A2C6A5761348255682448823E718 /* PBXContainerItemProxy */ = {
+		08E16AE9BE4CEBF0151022D32D585478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D83CD42EA57F97A225D24BDC7BD6B6F6;
 			remoteInfo = MTBBarcodeScanner;
 		};
-		2293E4FAA4B8C9CDFD21632FD88C04B7 /* PBXContainerItemProxy */ = {
+		2D103C3D3E193544F9E860E1559410F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E6256EC9894014B4E365165FA98E237C;
-			remoteInfo = barcode_scan;
+			remoteGlobalIDString = D83CD42EA57F97A225D24BDC7BD6B6F6;
+			remoteInfo = MTBBarcodeScanner;
 		};
-		3E1A4F0E3E9608777F52E65C03A6B004 /* PBXContainerItemProxy */ = {
+		70E283C19B8E626D1E41DF6233154CDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07C7921476B420194021B682FBCAFA8;
+			remoteInfo = flutter_bluetooth_serial;
+		};
+		AB812F37FBF0DC0BA514018666E5CC14 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
 			remoteInfo = Flutter;
 		};
-		DB4895EF26D1F763590BBF91A8AC97DF /* PBXContainerItemProxy */ = {
+		B3187A318DC82A1B9FBD56AAA3A33530 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D83CD42EA57F97A225D24BDC7BD6B6F6;
-			remoteInfo = MTBBarcodeScanner;
+			remoteGlobalIDString = E864A9DA72EED9027036A46ABD1822BC;
+			remoteInfo = qr_code_scanner;
+		};
+		D4F7EE233A764DD451A1A00572A52628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		EA4E636E0A7BA4A6D3F8C8C2FA75A095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		073884E5B33839775CA3D67753DAD258 /* BarcodeScannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarcodeScannerViewController.m; path = "../../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-1.0.0/ios/Classes/BarcodeScannerViewController.m"; sourceTree = "<group>"; };
-		087D5FBA440C8E9E0708FA659A3F334C /* ScannerOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScannerOverlay.h; path = "../../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-1.0.0/ios/Classes/ScannerOverlay.h"; sourceTree = "<group>"; };
 		0957685B0E749704E4B394F0C2EAC062 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		0D2D32D95F00B2DF0116AC6FE98EE7E9 /* BarcodeScannerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarcodeScannerViewController.h; path = "../../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-1.0.0/ios/Classes/BarcodeScannerViewController.h"; sourceTree = "<group>"; };
-		16781E6F11184E5FED61338C5D7C6753 /* barcode_scan-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "barcode_scan-Info.plist"; sourceTree = "<group>"; };
+		0E2AD34F53D60D12CAAD4A6C588D3CA4 /* qr_code_scanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "qr_code_scanner-Info.plist"; sourceTree = "<group>"; };
+		1575330E8984A7F0ABA16C62470A3774 /* flutter_bluetooth_serial.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = flutter_bluetooth_serial.podspec; path = "../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bluetooth_serial-0.0.5/ios/flutter_bluetooth_serial.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		190769780D7A18CCB3CC628C238C7408 /* MTBBarcodeScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTBBarcodeScanner-prefix.pch"; sourceTree = "<group>"; };
-		1FE1BAB22FAFD50FDA8D12AB2220861B /* barcode_scan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = barcode_scan.framework; path = barcode_scan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E23E8FDC3F74012F38FF4FEB7B5DF92 /* SwiftFlutterQrPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftFlutterQrPlugin.swift; path = "../../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/qr_code_scanner-0.0.12/ios/Classes/SwiftFlutterQrPlugin.swift"; sourceTree = "<group>"; };
+		1E3C497C6035DFB9A801D106FDD3FC16 /* QRViewFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRViewFactory.swift; path = "../../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/qr_code_scanner-0.0.12/ios/Classes/QRViewFactory.swift"; sourceTree = "<group>"; };
+		2151F817B6662992AACD705EC22F0E43 /* flutter_bluetooth_serial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = flutter_bluetooth_serial.framework; path = flutter_bluetooth_serial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD35495F0539645B05298768B095719 /* MTBBarcodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MTBBarcodeScanner.framework; path = MTBBarcodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E330809D2F7016761923FC9EAABDBE1 /* flutter_bluetooth_serial-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "flutter_bluetooth_serial-Info.plist"; sourceTree = "<group>"; };
+		2F454FB17F814C3182D2EA2E1DA5AEFE /* qr_code_scanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "qr_code_scanner-prefix.pch"; sourceTree = "<group>"; };
 		3101751A3541947730F3E21D079104DA /* MTBBarcodeScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTBBarcodeScanner.xcconfig; sourceTree = "<group>"; };
 		317C26B9A7CEDD34ADE8F37FAAB7AC20 /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
-		370307EF5A9F38742564725D5E7EFA19 /* barcode_scan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = barcode_scan.modulemap; sourceTree = "<group>"; };
 		380D50F28E4C1F8B519D1CD471802157 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		38E6333B1B78A1DC54EB3EDE71915442 /* flutter_bluetooth_serial.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = flutter_bluetooth_serial.modulemap; sourceTree = "<group>"; };
 		40C11AB5AB257041D0A0BA223064DEA8 /* MTBBarcodeScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTBBarcodeScanner.h; path = Classes/ios/Scanners/MTBBarcodeScanner.h; sourceTree = "<group>"; };
-		41D15817613AD751FD90BAFA8A0169B9 /* barcode_scan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "barcode_scan-umbrella.h"; sourceTree = "<group>"; };
-		4E513FF8603C61CAF3EF208092DCDC32 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../../../Downloads/flutter/bin/cache/artifacts/engine/ios/LICENSE; sourceTree = "<group>"; };
+		49AF7E218FAF227F66BAFEF5B54FE953 /* FlutterQrPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlutterQrPlugin.m; path = "../../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/qr_code_scanner-0.0.12/ios/Classes/FlutterQrPlugin.m"; sourceTree = "<group>"; };
+		504FFC783519CB8122E6807F2662DEB4 /* QRView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRView.swift; path = "../../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/qr_code_scanner-0.0.12/ios/Classes/QRView.swift"; sourceTree = "<group>"; };
 		50606C5E9C2BEE3A681D7DF31B20B871 /* MTBBarcodeScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTBBarcodeScanner-dummy.m"; sourceTree = "<group>"; };
 		51825CD8F0558EFA53D9510F0E5BFA16 /* Pods-Runner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-Info.plist"; sourceTree = "<group>"; };
-		59F31A1EC662CF6A4EE8949E93DF8A8A /* barcode_scan.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = barcode_scan.xcconfig; sourceTree = "<group>"; };
-		5AF5C5160E818E18345B6F47F7F73BAB /* BarcodeScanPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarcodeScanPlugin.h; path = "../../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-1.0.0/ios/Classes/BarcodeScanPlugin.h"; sourceTree = "<group>"; };
+		5232B7F20D5228E8EE423EEC925A3284 /* FlutterBluetoothSerialPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlutterBluetoothSerialPlugin.m; path = "../../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bluetooth_serial-0.0.5/ios/Classes/FlutterBluetoothSerialPlugin.m"; sourceTree = "<group>"; };
+		65900D5D1DE9C3970BC36A12243E964F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../../../Downloads/flutter/bin/cache/artifacts/engine/ios/LICENSE; sourceTree = "<group>"; };
 		669E8F25E1897672BDB80B7EB784DA24 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Runner.framework; path = "Pods-Runner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FF060DCD439F978450E9067A016F93A /* ScannerOverlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ScannerOverlay.m; path = "../../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-1.0.0/ios/Classes/ScannerOverlay.m"; sourceTree = "<group>"; };
+		6A4E02A6067C7091E6AA65ABBCB011C6 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = ../../../../../../../../Downloads/flutter/bin/cache/artifacts/engine/ios/Flutter.framework; sourceTree = "<group>"; };
+		6E9A36FD405AA120B18282F12DB98456 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bluetooth_serial-0.0.5/LICENSE"; sourceTree = "<group>"; };
+		704FE25870AF95E35FB50792F5D34359 /* FlutterQrPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlutterQrPlugin.h; path = "../../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/qr_code_scanner-0.0.12/ios/Classes/FlutterQrPlugin.h"; sourceTree = "<group>"; };
 		7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
-		871B6323246389DD47E0F059FF374C3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-1.0.0/LICENSE"; sourceTree = "<group>"; };
+		7BB578CC52F5516160A1E1FA8C236549 /* flutter_bluetooth_serial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "flutter_bluetooth_serial-dummy.m"; sourceTree = "<group>"; };
+		7CD474C3AD7B5F2BC632B575BE8970DF /* flutter_bluetooth_serial.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_bluetooth_serial.xcconfig; sourceTree = "<group>"; };
+		80A67F6F94BC1C9E4EC79A28691F29D8 /* qr_code_scanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "qr_code_scanner-dummy.m"; sourceTree = "<group>"; };
+		8AFF5453B4F857FB1CF6C129B1222B3C /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Flutter.podspec; path = ../../../../../../../../Downloads/flutter/bin/cache/artifacts/engine/ios/Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8C6513E3AD72D0723AFCFFF716560927 /* MTBBarcodeScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTBBarcodeScanner-umbrella.h"; sourceTree = "<group>"; };
 		8C8BB1D50D0BE2122A956A5779CAF37A /* MTBBarcodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTBBarcodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CC45817B4F2436F5AD2D2610471D67C /* barcode_scan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "barcode_scan-dummy.m"; sourceTree = "<group>"; };
-		917E3D4FF61D7342A1ECC54398ECC4D4 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = ../../../../../../../../Downloads/flutter/bin/cache/artifacts/engine/ios/Flutter.framework; sourceTree = "<group>"; };
-		922FEF41A9CCCF3E7EBF9F17B3113355 /* Flutter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.xcconfig; sourceTree = "<group>"; };
-		944E04090CE605D7F2CAFD8D3E39F64C /* BarcodeScannerViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarcodeScannerViewControllerDelegate.h; path = "../../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-1.0.0/ios/Classes/BarcodeScannerViewControllerDelegate.h"; sourceTree = "<group>"; };
+		8EDC0AE1F9076AD2F7A1FDCD374A002C /* qr_code_scanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = qr_code_scanner.framework; path = qr_code_scanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91987161F9F500AA5927E157BAAB061C /* Flutter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.xcconfig; sourceTree = "<group>"; };
 		96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Runner-umbrella.h"; sourceTree = "<group>"; };
+		98B360166847A76B631341AB6144691C /* FlutterBluetoothSerialPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlutterBluetoothSerialPlugin.h; path = "../../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bluetooth_serial-0.0.5/ios/Classes/FlutterBluetoothSerialPlugin.h"; sourceTree = "<group>"; };
 		9A0FE4792697FC4DAB0F763545BE0D5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
-		A8523FA7F5070E632E1EF5194298EB8D /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Flutter.podspec; path = ../../../../../../../../Downloads/flutter/bin/cache/artifacts/engine/ios/Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABD2F2DA7EBC98A7857242355667D286 /* qr_code_scanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = qr_code_scanner.modulemap; sourceTree = "<group>"; };
 		BAF1853BCCE05FADC145F078B54A09C8 /* MTBBarcodeScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MTBBarcodeScanner.modulemap; sourceTree = "<group>"; };
-		C313AFAADB2E437A12F0DC12D6953264 /* BarcodeScanPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarcodeScanPlugin.m; path = "../../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-1.0.0/ios/Classes/BarcodeScanPlugin.m"; sourceTree = "<group>"; };
+		BEB7F3D8978AF9BD9CED8937343B95C6 /* qr_code_scanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = qr_code_scanner.xcconfig; sourceTree = "<group>"; };
 		C5D8C456A51E3442CB5907B5DBDEA4CB /* MTBBarcodeScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTBBarcodeScanner.m; path = Classes/ios/Scanners/MTBBarcodeScanner.m; sourceTree = "<group>"; };
 		C6EA98402A94995D022D330B64B5203D /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CA55DB82251EA6FC42CB09D2AC9282D3 /* MTBBarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MTBBarcodeScanner-Info.plist"; sourceTree = "<group>"; };
 		CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		D9F2B4CB813B4BDC4D164C6E0868930A /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
-		E3755F8E99748A8E42FB91E1338A7DC3 /* barcode_scan.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = barcode_scan.podspec; path = "../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-1.0.0/ios/barcode_scan.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E0DDAB74C32F8C5630B32367D08F381D /* qr_code_scanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "qr_code_scanner-umbrella.h"; sourceTree = "<group>"; };
+		F17152BD4B50EC0CAA7B81572BBCFCE5 /* qr_code_scanner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = qr_code_scanner.podspec; path = "../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/qr_code_scanner-0.0.12/ios/qr_code_scanner.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F32F3E433FF8B64F6522381D7B65AA60 /* flutter_bluetooth_serial-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_bluetooth_serial-prefix.pch"; sourceTree = "<group>"; };
 		F49C32B3B8CF59AB437BFD7314674868 /* Pods-Runner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Runner.modulemap"; sourceTree = "<group>"; };
-		F8A65584184C4979172800C4FEEB5C2A /* barcode_scan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "barcode_scan-prefix.pch"; sourceTree = "<group>"; };
+		F5ED91242272879699A500229EE22314 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/qr_code_scanner-0.0.12/LICENSE"; sourceTree = "<group>"; };
+		F7742F79F48B597A40906071F62EC5F1 /* flutter_bluetooth_serial-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_bluetooth_serial-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2BC96FB3075AA3903EFF41A1A9FBC190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9F0037DBB1128FC4E0D61FB032F7A7 /* Foundation.framework in Frameworks */,
+				E6A9A9071B276F61202F0D2D66F65616 /* MTBBarcodeScanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3771ADA0A4DE091AF95BE98EA90B5393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E68DA7554E349E0AB4E766FA52B1D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F44A8646AE6B24D3363DC17CBC8AEA8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,33 +182,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C754213E9A2241825B3EB1EDA7BC7566 /* Frameworks */ = {
+		D967C1E8ABB2FE88C969E2FC1DA6F32D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA80865BE9F7A87BD16A8991B9E3E335 /* Foundation.framework in Frameworks */,
-				ED2F6C7F5FA88DC3E7436C310310372E /* MTBBarcodeScanner.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7329FDF3EDF01BC92CAB48594ADECC3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE38A7DAC039DB75D39C3B45D34B8AF4 /* Foundation.framework in Frameworks */,
+				E3FAAF7FD2D02A0B8DAB9E2B97031D4D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B85BD9155F83B8144583BC30D53A8EF /* ios */ = {
+		0674FD2C2FF4C95F0E21D7DD09971008 /* flutter_bluetooth_serial */ = {
 			isa = PBXGroup;
 			children = (
-				79B4DEDA0299B48208F1887931CC7372 /* .symlinks */,
+				1CAFBF538644763124D7C58C4A0373A7 /* .. */,
+				37B24C6EDF331651D81D8CFA11F865F0 /* Pod */,
+				FF78454BAE739B5038D6A8850D16B35C /* Support Files */,
 			);
-			name = ios;
-			path = ios;
+			name = flutter_bluetooth_serial;
+			path = ../.symlinks/plugins/flutter_bluetooth_serial/ios;
+			sourceTree = "<group>";
+		};
+		0D4845609FDB9F50ACE2BD689FA9E911 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				D39024AA9085ED9F597FBD5FB03F0FC1 /* .. */,
+			);
+			name = ..;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		0F9115D614A5723E06221A1C67717AC9 /* iOS */ = {
@@ -178,59 +223,133 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		11016C7C5BAA0C44817B4625B79B35AB /* Development Pods */ = {
+		17875C1091CCF7DA98438D9A885F9A07 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				AC95ABFFF31BF6429BD92CD5DCA97C11 /* barcode_scan */,
-				B041EF2921FDCE515943561C43871878 /* Flutter */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		1EE1C5FFFD7598BB877B40B461FABA5B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				922FEF41A9CCCF3E7EBF9F17B3113355 /* Flutter.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../../Pods/Target Support Files/Flutter";
-			sourceTree = "<group>";
-		};
-		2132F56F3426FBD42C765C36AD7222BD /* plugins */ = {
-			isa = PBXGroup;
-			children = (
-				B5184373C4514A2C3DA96015B2A53F54 /* barcode_scan */,
-			);
-			name = plugins;
-			path = plugins;
-			sourceTree = "<group>";
-		};
-		2FED68AB6608D20D643C367CF7ABAD32 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				5C658C487C8CA6E19F1DDD8922128CA7 /* .. */,
+				BDF1A47BFFEFB347C2DC7531136162F4 /* Documents */,
 			);
 			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		3AC69C453BC09B57123169860EC6A77A /* Ibero-Puebla */ = {
+		18ADF6A31CE71A697AEEDD67067B54A4 /* .symlinks */ = {
 			isa = PBXGroup;
 			children = (
-				D8540B6E08DD2C4E52BBE3F07DBB0D4E /* storybook_fab */,
+				1D02897BBA6BEEE3CA6842FCC63D2E3A /* plugins */,
 			);
-			name = "Ibero-Puebla";
-			path = "Ibero-Puebla";
+			name = .symlinks;
+			path = .symlinks;
 			sourceTree = "<group>";
 		};
-		44F0C293B5F08FD5631ADB553F336E40 /* Products */ = {
+		1C0E7862E56BDD98A39462244C55078A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1FE1BAB22FAFD50FDA8D12AB2220861B /* barcode_scan.framework */,
-				2AD35495F0539645B05298768B095719 /* MTBBarcodeScanner.framework */,
-				669E8F25E1897672BDB80B7EB784DA24 /* Pods_Runner.framework */,
+				F5ED91242272879699A500229EE22314 /* LICENSE */,
+				F17152BD4B50EC0CAA7B81572BBCFCE5 /* qr_code_scanner.podspec */,
 			);
-			name = Products;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1CAFBF538644763124D7C58C4A0373A7 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				CD383855AE015404F3E418BFBC9FE963 /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bluetooth_serial-0.0.5/ios";
+			sourceTree = "<group>";
+		};
+		1D02897BBA6BEEE3CA6842FCC63D2E3A /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				5561B42F7C7C78508E5BF6712C90D473 /* flutter_bluetooth_serial */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		2316C926A91056A9C791D594D0E82A2C /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				69A65D60CA9C3D8C80BE238706B3DE40 /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/qr_code_scanner-0.0.12/ios";
+			sourceTree = "<group>";
+		};
+		302F00238C306F5EC3E4AFFFAB5EA8FD /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				348E2B625BD4FCF288CD96FEC096C034 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		340DD47BA7CC42519EB8027228E29E1B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4986A32774018492003C30D098255220 /* Flutter */,
+				0674FD2C2FF4C95F0E21D7DD09971008 /* flutter_bluetooth_serial */,
+				7A80744A4757F8379B9C0291F4893284 /* qr_code_scanner */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		348E2B625BD4FCF288CD96FEC096C034 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				53ED42A2501EC069403FC7B2A72F77E8 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		357A2ACB84FEA5E6F47782BE7A00BE26 /* qr_code_scanner */ = {
+			isa = PBXGroup;
+			children = (
+				C42736FE78E2E10CABD58B8B6E0FDC12 /* ios */,
+			);
+			name = qr_code_scanner;
+			path = qr_code_scanner;
+			sourceTree = "<group>";
+		};
+		37B24C6EDF331651D81D8CFA11F865F0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1575330E8984A7F0ABA16C62470A3774 /* flutter_bluetooth_serial.podspec */,
+				6E9A36FD405AA120B18282F12DB98456 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4617FDFC911E00DDB59EF0371610EE3B /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				18ADF6A31CE71A697AEEDD67067B54A4 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		4986A32774018492003C30D098255220 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				9F04982120BC1608BADFB1516B724A7E /* Frameworks */,
+				F149BFF549670A421BB4AA32770692BE /* Pod */,
+				99FDF6D103FE085BFE1A13686F980F9F /* Support Files */,
+			);
+			name = Flutter;
+			path = ../.symlinks/flutter/ios;
+			sourceTree = "<group>";
+		};
+		4D4F8F9730D8B66FD3E39A7CC30FE5D8 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				302F00238C306F5EC3E4AFFFAB5EA8FD /* .. */,
+			);
+			name = ..;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		4F18645B56213D5FFB52A37B953ADB71 /* Support Files */ = {
@@ -247,42 +366,63 @@
 			path = "../Target Support Files/MTBBarcodeScanner";
 			sourceTree = "<group>";
 		};
-		569B28D90FBBC1D2620F4D8D2B299E14 /* Classes */ = {
+		521B8F632BA62D06BABFAC03968919E8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0D2D32D95F00B2DF0116AC6FE98EE7E9 /* BarcodeScannerViewController.h */,
-				073884E5B33839775CA3D67753DAD258 /* BarcodeScannerViewController.m */,
-				944E04090CE605D7F2CAFD8D3E39F64C /* BarcodeScannerViewControllerDelegate.h */,
-				5AF5C5160E818E18345B6F47F7F73BAB /* BarcodeScanPlugin.h */,
-				C313AFAADB2E437A12F0DC12D6953264 /* BarcodeScanPlugin.m */,
-				087D5FBA440C8E9E0708FA659A3F334C /* ScannerOverlay.h */,
-				6FF060DCD439F978450E9067A016F93A /* ScannerOverlay.m */,
+				ABD2F2DA7EBC98A7857242355667D286 /* qr_code_scanner.modulemap */,
+				BEB7F3D8978AF9BD9CED8937343B95C6 /* qr_code_scanner.xcconfig */,
+				80A67F6F94BC1C9E4EC79A28691F29D8 /* qr_code_scanner-dummy.m */,
+				0E2AD34F53D60D12CAAD4A6C588D3CA4 /* qr_code_scanner-Info.plist */,
+				2F454FB17F814C3182D2EA2E1DA5AEFE /* qr_code_scanner-prefix.pch */,
+				E0DDAB74C32F8C5630B32367D08F381D /* qr_code_scanner-umbrella.h */,
 			);
-			name = Classes;
-			path = Classes;
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/qr_code_scanner";
 			sourceTree = "<group>";
 		};
-		5C658C487C8CA6E19F1DDD8922128CA7 /* .. */ = {
+		53ED42A2501EC069403FC7B2A72F77E8 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				DC00F915C65BF02D278F0D9001B04DA8 /* .. */,
+				F666819371E306FD4711D88E571CD8DF /* .. */,
 			);
 			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		74EA4FE86E4DF191991DD33FCE523FC0 /* Support Files */ = {
+		5561B42F7C7C78508E5BF6712C90D473 /* flutter_bluetooth_serial */ = {
 			isa = PBXGroup;
 			children = (
-				370307EF5A9F38742564725D5E7EFA19 /* barcode_scan.modulemap */,
-				59F31A1EC662CF6A4EE8949E93DF8A8A /* barcode_scan.xcconfig */,
-				8CC45817B4F2436F5AD2D2610471D67C /* barcode_scan-dummy.m */,
-				16781E6F11184E5FED61338C5D7C6753 /* barcode_scan-Info.plist */,
-				F8A65584184C4979172800C4FEEB5C2A /* barcode_scan-prefix.pch */,
-				41D15817613AD751FD90BAFA8A0169B9 /* barcode_scan-umbrella.h */,
+				FDFF4D113B490E1F82D7A4EF984320DB /* ios */,
 			);
-			name = "Support Files";
-			path = "../../../../Pods/Target Support Files/barcode_scan";
+			name = flutter_bluetooth_serial;
+			path = flutter_bluetooth_serial;
+			sourceTree = "<group>";
+		};
+		69A65D60CA9C3D8C80BE238706B3DE40 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				E484CA36B7FC61CDE25563210945FE87 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		75DDC9FDA41989291EF9AD4FFF9421FA /* Ibero-Puebla */ = {
+			isa = PBXGroup;
+			children = (
+				A928E333FD7805841770F6EC1C686831 /* storybook_fab */,
+			);
+			name = "Ibero-Puebla";
+			path = "Ibero-Puebla";
+			sourceTree = "<group>";
+		};
+		768A24369F705C08D675AC2F2D6E55A4 /* Ibero-Puebla */ = {
+			isa = PBXGroup;
+			children = (
+				CD226859097FAA009091C5DA55FBF7AA /* storybook_fab */,
+			);
+			name = "Ibero-Puebla";
+			path = "Ibero-Puebla";
 			sourceTree = "<group>";
 		};
 		791C6E4B424AF06279F8918FA67B8ED6 /* Targets Support Files */ = {
@@ -293,13 +433,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		79B4DEDA0299B48208F1887931CC7372 /* .symlinks */ = {
+		7A80744A4757F8379B9C0291F4893284 /* qr_code_scanner */ = {
 			isa = PBXGroup;
 			children = (
-				2132F56F3426FBD42C765C36AD7222BD /* plugins */,
+				2316C926A91056A9C791D594D0E82A2C /* .. */,
+				1C0E7862E56BDD98A39462244C55078A /* Pod */,
+				521B8F632BA62D06BABFAC03968919E8 /* Support Files */,
 			);
-			name = .symlinks;
-			path = .symlinks;
+			name = qr_code_scanner;
+			path = ../.symlinks/plugins/qr_code_scanner/ios;
 			sourceTree = "<group>";
 		};
 		7B0D67477903E1EB8D6A9F9AF51BC5CC /* Pods-Runner */ = {
@@ -320,160 +462,153 @@
 			path = "Target Support Files/Pods-Runner";
 			sourceTree = "<group>";
 		};
-		7E9AD75FDFC1B2EB436BDDBC10FE5191 /* Pod */ = {
+		7BF9667C6BD996F60DC9BBFB86CAEDE2 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				E3755F8E99748A8E42FB91E1338A7DC3 /* barcode_scan.podspec */,
-				871B6323246389DD47E0F059FF374C3B /* LICENSE */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		82DDFEFDF4EFBEC266EB680F24F04D89 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				D458199D63308548273ECBE2BAC8E282 /* .. */,
+				0D4845609FDB9F50ACE2BD689FA9E911 /* .. */,
 			);
 			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		939C22EEC8430C458E846680EA8C0FCE /* .. */ = {
+		81E7668ED42DBD81ACBB64FD9284F699 /* Documents */ = {
 			isa = PBXGroup;
 			children = (
-				996A2483F868AAFEC75263DE6452AFD5 /* .. */,
-			);
-			name = ..;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		996A2483F868AAFEC75263DE6452AFD5 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				AE01EBCB71220B0EC866F4EB1DAB8833 /* Documents */,
-			);
-			name = ..;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		ABD2F2DA952E194826D9FD938937B514 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				917E3D4FF61D7342A1ECC54398ECC4D4 /* Flutter.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AC95ABFFF31BF6429BD92CD5DCA97C11 /* barcode_scan */ = {
-			isa = PBXGroup;
-			children = (
-				C324BC0DCC5D80F2307B4083DBD7477E /* .. */,
-				7E9AD75FDFC1B2EB436BDDBC10FE5191 /* Pod */,
-				74EA4FE86E4DF191991DD33FCE523FC0 /* Support Files */,
-			);
-			name = barcode_scan;
-			path = ../.symlinks/plugins/barcode_scan/ios;
-			sourceTree = "<group>";
-		};
-		AE01EBCB71220B0EC866F4EB1DAB8833 /* Documents */ = {
-			isa = PBXGroup;
-			children = (
-				C9CB2D25781F9AE5BB02DF9A53EDC73C /* Github */,
+				F21240743D574DAB486D20344C682876 /* Github */,
 			);
 			name = Documents;
 			path = Documents;
 			sourceTree = "<group>";
 		};
-		B041EF2921FDCE515943561C43871878 /* Flutter */ = {
+		83FBDAD8D2F4CF1D8B06479C76933ACC /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				ABD2F2DA952E194826D9FD938937B514 /* Frameworks */,
-				B4E57F45588F9960932C69335E94CC56 /* Pod */,
-				1EE1C5FFFD7598BB877B40B461FABA5B /* Support Files */,
-			);
-			name = Flutter;
-			path = ../.symlinks/flutter/ios;
-			sourceTree = "<group>";
-		};
-		B4E57F45588F9960932C69335E94CC56 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A8523FA7F5070E632E1EF5194298EB8D /* Flutter.podspec */,
-				4E513FF8603C61CAF3EF208092DCDC32 /* LICENSE */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		B5184373C4514A2C3DA96015B2A53F54 /* barcode_scan */ = {
-			isa = PBXGroup;
-			children = (
-				C36EDC85643F8F7BA4BEBEB2313296B3 /* ios */,
-			);
-			name = barcode_scan;
-			path = barcode_scan;
-			sourceTree = "<group>";
-		};
-		C324BC0DCC5D80F2307B4083DBD7477E /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				2FED68AB6608D20D643C367CF7ABAD32 /* .. */,
+				FC477FA8062D063ECB20CC20DF16F8BF /* .. */,
 			);
 			name = ..;
-			path = "../../../../../../../../../Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-1.0.0/ios";
+			path = ..;
 			sourceTree = "<group>";
 		};
-		C36EDC85643F8F7BA4BEBEB2313296B3 /* ios */ = {
+		964CE60AF726A2DEE4D20463B4E63196 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				569B28D90FBBC1D2620F4D8D2B299E14 /* Classes */,
+				2151F817B6662992AACD705EC22F0E43 /* flutter_bluetooth_serial.framework */,
+				2AD35495F0539645B05298768B095719 /* MTBBarcodeScanner.framework */,
+				669E8F25E1897672BDB80B7EB784DA24 /* Pods_Runner.framework */,
+				8EDC0AE1F9076AD2F7A1FDCD374A002C /* qr_code_scanner.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99FDF6D103FE085BFE1A13686F980F9F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91987161F9F500AA5927E157BAAB061C /* Flutter.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		9F04982120BC1608BADFB1516B724A7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A4E02A6067C7091E6AA65ABBCB011C6 /* Flutter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A928E333FD7805841770F6EC1C686831 /* storybook_fab */ = {
+			isa = PBXGroup;
+			children = (
+				ECA73169563D1245BAA5AAC7D08AA8D4 /* ios */,
+			);
+			name = storybook_fab;
+			path = storybook_fab;
+			sourceTree = "<group>";
+		};
+		AA8E0F67AD8A78F6B6BE415D7E5C85B9 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				BF16980F18CDE3C45AA3AF66B5CB4152 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		BDF1A47BFFEFB347C2DC7531136162F4 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				E7077AC147BBC037BBF69CF142078CE6 /* Github */,
+			);
+			name = Documents;
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		BF16980F18CDE3C45AA3AF66B5CB4152 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				357A2ACB84FEA5E6F47782BE7A00BE26 /* qr_code_scanner */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		C42736FE78E2E10CABD58B8B6E0FDC12 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				CFE54CE569533E7770EE457CB47B16EF /* Classes */,
 			);
 			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};
-		C9CB2D25781F9AE5BB02DF9A53EDC73C /* Github */ = {
+		CD226859097FAA009091C5DA55FBF7AA /* storybook_fab */ = {
 			isa = PBXGroup;
 			children = (
-				3AC69C453BC09B57123169860EC6A77A /* Ibero-Puebla */,
+				4617FDFC911E00DDB59EF0371610EE3B /* ios */,
 			);
-			name = Github;
-			path = Github;
+			name = storybook_fab;
+			path = storybook_fab;
+			sourceTree = "<group>";
+		};
+		CD383855AE015404F3E418BFBC9FE963 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				7BF9667C6BD996F60DC9BBFB86CAEDE2 /* .. */,
+			);
+			name = ..;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				11016C7C5BAA0C44817B4625B79B35AB /* Development Pods */,
+				340DD47BA7CC42519EB8027228E29E1B /* Development Pods */,
 				FDC9E5F7C5D1C603D31E446BAA057905 /* Frameworks */,
 				E114EBD91E697317058312CA355665C8 /* Pods */,
-				44F0C293B5F08FD5631ADB553F336E40 /* Products */,
+				964CE60AF726A2DEE4D20463B4E63196 /* Products */,
 				791C6E4B424AF06279F8918FA67B8ED6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D458199D63308548273ECBE2BAC8E282 /* .. */ = {
+		CFE54CE569533E7770EE457CB47B16EF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				939C22EEC8430C458E846680EA8C0FCE /* .. */,
+				704FE25870AF95E35FB50792F5D34359 /* FlutterQrPlugin.h */,
+				49AF7E218FAF227F66BAFEF5B54FE953 /* FlutterQrPlugin.m */,
+				504FFC783519CB8122E6807F2662DEB4 /* QRView.swift */,
+				1E3C497C6035DFB9A801D106FDD3FC16 /* QRViewFactory.swift */,
+				1E23E8FDC3F74012F38FF4FEB7B5DF92 /* SwiftFlutterQrPlugin.swift */,
 			);
-			name = ..;
-			path = ..;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		D8540B6E08DD2C4E52BBE3F07DBB0D4E /* storybook_fab */ = {
+		D39024AA9085ED9F597FBD5FB03F0FC1 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				0B85BD9155F83B8144583BC30D53A8EF /* ios */,
-			);
-			name = storybook_fab;
-			path = storybook_fab;
-			sourceTree = "<group>";
-		};
-		DC00F915C65BF02D278F0D9001B04DA8 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				82DDFEFDF4EFBEC266EB680F24F04D89 /* .. */,
+				83FBDAD8D2F4CF1D8B06479C76933ACC /* .. */,
 			);
 			name = ..;
 			path = ..;
@@ -487,6 +622,43 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E484CA36B7FC61CDE25563210945FE87 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				4D4F8F9730D8B66FD3E39A7CC30FE5D8 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E7077AC147BBC037BBF69CF142078CE6 /* Github */ = {
+			isa = PBXGroup;
+			children = (
+				768A24369F705C08D675AC2F2D6E55A4 /* Ibero-Puebla */,
+			);
+			name = Github;
+			path = Github;
+			sourceTree = "<group>";
+		};
+		E95416D2B5B9E2D8911D8B51F8CC2152 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				98B360166847A76B631341AB6144691C /* FlutterBluetoothSerialPlugin.h */,
+				5232B7F20D5228E8EE423EEC925A3284 /* FlutterBluetoothSerialPlugin.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ECA73169563D1245BAA5AAC7D08AA8D4 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				AA8E0F67AD8A78F6B6BE415D7E5C85B9 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
 		EEFF6CCF1ECEB35F52CC927962914177 /* MTBBarcodeScanner */ = {
 			isa = PBXGroup;
 			children = (
@@ -498,6 +670,42 @@
 			path = MTBBarcodeScanner;
 			sourceTree = "<group>";
 		};
+		F149BFF549670A421BB4AA32770692BE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF5453B4F857FB1CF6C129B1222B3C /* Flutter.podspec */,
+				65900D5D1DE9C3970BC36A12243E964F /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F21240743D574DAB486D20344C682876 /* Github */ = {
+			isa = PBXGroup;
+			children = (
+				75DDC9FDA41989291EF9AD4FFF9421FA /* Ibero-Puebla */,
+			);
+			name = Github;
+			path = Github;
+			sourceTree = "<group>";
+		};
+		F666819371E306FD4711D88E571CD8DF /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				81E7668ED42DBD81ACBB64FD9284F699 /* Documents */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FC477FA8062D063ECB20CC20DF16F8BF /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				17875C1091CCF7DA98438D9A885F9A07 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		FDC9E5F7C5D1C603D31E446BAA057905 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -507,9 +715,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FDFF4D113B490E1F82D7A4EF984320DB /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				E95416D2B5B9E2D8911D8B51F8CC2152 /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		FF78454BAE739B5038D6A8850D16B35C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38E6333B1B78A1DC54EB3EDE71915442 /* flutter_bluetooth_serial.modulemap */,
+				7CD474C3AD7B5F2BC632B575BE8970DF /* flutter_bluetooth_serial.xcconfig */,
+				7BB578CC52F5516160A1E1FA8C236549 /* flutter_bluetooth_serial-dummy.m */,
+				2E330809D2F7016761923FC9EAABDBE1 /* flutter_bluetooth_serial-Info.plist */,
+				F32F3E433FF8B64F6522381D7B65AA60 /* flutter_bluetooth_serial-prefix.pch */,
+				F7742F79F48B597A40906071F62EC5F1 /* flutter_bluetooth_serial-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/flutter_bluetooth_serial";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0F8781990A4A1EB4EC2EDB64C005064E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DD0F2460ADEA38E2EE7F480ECF41A4 /* FlutterQrPlugin.h in Headers */,
+				68781755617528301D19F49651EF369E /* qr_code_scanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		10A736B585A07CB5EBADD21AA5996DAD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -519,23 +759,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4053E90A3D2DEFA339CBE42A7992A5F9 /* Headers */ = {
+		A7B6365F6CF15600A415814893226A54 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF95D8FCADBE4D704965AAE9849EF877 /* barcode_scan-umbrella.h in Headers */,
-				937040FE69DC1B674D5B8A5CB11C3C53 /* BarcodeScannerViewController.h in Headers */,
-				1CDE0EC35900013B69174EBFF8754939 /* BarcodeScannerViewControllerDelegate.h in Headers */,
-				79C61E24C9883FC48EE454723F560502 /* BarcodeScanPlugin.h in Headers */,
-				70A5663475079A176B2C5756AC273851 /* ScannerOverlay.h in Headers */,
+				2501AE67DB525F7B461E06AB95283148 /* Pods-Runner-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7332B15CC996F4D12F2B8DF132A5583A /* Headers */ = {
+		E75616EF97DFCA2D31968DE0084494EA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8C9AA7CE85885B29FEEFFCD59B7C49C /* Pods-Runner-umbrella.h in Headers */,
+				06E3D88E92DE61F53F1F859A9F71D683 /* flutter_bluetooth_serial-umbrella.h in Headers */,
+				763BEBBFAB917CC81F2C30D463C5D636 /* FlutterBluetoothSerialPlugin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,23 +781,43 @@
 /* Begin PBXNativeTarget section */
 		8B74B458B450D74B75744B87BD747314 /* Pods-Runner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73B09EF84FB3FE27F58D504EA51F53F5 /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildConfigurationList = D62240FC3F878A343101F74A3BE22153 /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
 			buildPhases = (
-				7332B15CC996F4D12F2B8DF132A5583A /* Headers */,
-				48544D543BDAFBE9FFF3CC304E890791 /* Sources */,
-				F7329FDF3EDF01BC92CAB48594ADECC3 /* Frameworks */,
-				6FE6A74A0C1FEB6439BDE50233725137 /* Resources */,
+				A7B6365F6CF15600A415814893226A54 /* Headers */,
+				4458B782A53CE9E4FF69AC4488829509 /* Sources */,
+				3771ADA0A4DE091AF95BE98EA90B5393 /* Frameworks */,
+				C1A292AFAA2CEA650D68742EC2E46B57 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8B59E0CDE0E620C7BF4DF58B8ABD440B /* PBXTargetDependency */,
-				0BF4F37FAFE9DC58B99E122A738ADCED /* PBXTargetDependency */,
-				B601DBCA2CC5FEC08AC1D86CD301F1DB /* PBXTargetDependency */,
+				51D918B5DB8BCFB91D4F4B217B113DA8 /* PBXTargetDependency */,
+				E6862765635774A9E04D2F9CA23A012E /* PBXTargetDependency */,
+				8CB51FC5209FCD55A6456D6902B33C3B /* PBXTargetDependency */,
+				3F261D3F98E225CB4DC3458A298DEBAF /* PBXTargetDependency */,
 			);
 			name = "Pods-Runner";
 			productName = "Pods-Runner";
 			productReference = 669E8F25E1897672BDB80B7EB784DA24 /* Pods_Runner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C07C7921476B420194021B682FBCAFA8 /* flutter_bluetooth_serial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52106C3E24EEF55CE85CB31A8DE87B1D /* Build configuration list for PBXNativeTarget "flutter_bluetooth_serial" */;
+			buildPhases = (
+				E75616EF97DFCA2D31968DE0084494EA /* Headers */,
+				434E8376CB0851D127C9B7C4623AD4E4 /* Sources */,
+				D967C1E8ABB2FE88C969E2FC1DA6F32D /* Frameworks */,
+				086AA96FF42434985FF015DBE668E8B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70669914FCF1FFD5F7E171B5279F559D /* PBXTargetDependency */,
+			);
+			name = flutter_bluetooth_serial;
+			productName = flutter_bluetooth_serial;
+			productReference = 2151F817B6662992AACD705EC22F0E43 /* flutter_bluetooth_serial.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D83CD42EA57F97A225D24BDC7BD6B6F6 /* MTBBarcodeScanner */ = {
@@ -581,24 +838,24 @@
 			productReference = 2AD35495F0539645B05298768B095719 /* MTBBarcodeScanner.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E6256EC9894014B4E365165FA98E237C /* barcode_scan */ = {
+		E864A9DA72EED9027036A46ABD1822BC /* qr_code_scanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB062AD7AA1EE2339F4CAEECDE8B957F /* Build configuration list for PBXNativeTarget "barcode_scan" */;
+			buildConfigurationList = A17D82B18550D6E734362689CBB2E62B /* Build configuration list for PBXNativeTarget "qr_code_scanner" */;
 			buildPhases = (
-				4053E90A3D2DEFA339CBE42A7992A5F9 /* Headers */,
-				A5EDAF606DEA9F2664C052A0CEC9BB55 /* Sources */,
-				C754213E9A2241825B3EB1EDA7BC7566 /* Frameworks */,
-				5C2EB948A21764D9DC96487AEF40EA82 /* Resources */,
+				0F8781990A4A1EB4EC2EDB64C005064E /* Headers */,
+				3C639CD671F51027F068037A4D161B95 /* Sources */,
+				2BC96FB3075AA3903EFF41A1A9FBC190 /* Frameworks */,
+				752373A8E973A5F166ADB5C240AF3A78 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B21A08AE4468F14D408C49AA13294A0A /* PBXTargetDependency */,
-				110179AAD67F5BADE9C53E6991701064 /* PBXTargetDependency */,
+				504E41C3527A0D0B57BA0D129D479AE9 /* PBXTargetDependency */,
+				A23F5FF45146A5C935D107382B5A2556 /* PBXTargetDependency */,
 			);
-			name = barcode_scan;
-			productName = barcode_scan;
-			productReference = 1FE1BAB22FAFD50FDA8D12AB2220861B /* barcode_scan.framework */;
+			name = qr_code_scanner;
+			productName = qr_code_scanner;
+			productReference = 8EDC0AE1F9076AD2F7A1FDCD374A002C /* qr_code_scanner.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -619,19 +876,27 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 44F0C293B5F08FD5631ADB553F336E40 /* Products */;
+			productRefGroup = 964CE60AF726A2DEE4D20463B4E63196 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E6256EC9894014B4E365165FA98E237C /* barcode_scan */,
 				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				C07C7921476B420194021B682FBCAFA8 /* flutter_bluetooth_serial */,
 				D83CD42EA57F97A225D24BDC7BD6B6F6 /* MTBBarcodeScanner */,
 				8B74B458B450D74B75744B87BD747314 /* Pods-Runner */,
+				E864A9DA72EED9027036A46ABD1822BC /* qr_code_scanner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		086AA96FF42434985FF015DBE668E8B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2625B6A5E57E98D150D2344C3A2C5509 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -639,14 +904,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C2EB948A21764D9DC96487AEF40EA82 /* Resources */ = {
+		752373A8E973A5F166ADB5C240AF3A78 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FE6A74A0C1FEB6439BDE50233725137 /* Resources */ = {
+		C1A292AFAA2CEA650D68742EC2E46B57 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -665,62 +930,84 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48544D543BDAFBE9FFF3CC304E890791 /* Sources */ = {
+		3C639CD671F51027F068037A4D161B95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				497F88424970BE3461EC175F7687CBD2 /* Pods-Runner-dummy.m in Sources */,
+				F70B126617002A0B73C794475DC95FD3 /* FlutterQrPlugin.m in Sources */,
+				D21AD181BA186246053C8495EAF192E5 /* qr_code_scanner-dummy.m in Sources */,
+				72CC510246E2863682DD664ED2AE1A62 /* QRView.swift in Sources */,
+				E3C0F215399C9D32D8A19F7B1BEA8691 /* QRViewFactory.swift in Sources */,
+				55874C0B53BB2CBA4C065E8FD11CB49A /* SwiftFlutterQrPlugin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5EDAF606DEA9F2664C052A0CEC9BB55 /* Sources */ = {
+		434E8376CB0851D127C9B7C4623AD4E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				636CC97A85A30EC6BF43D744F2CE1DF5 /* barcode_scan-dummy.m in Sources */,
-				7F2040678D4B59D425550B5A662A73D2 /* BarcodeScannerViewController.m in Sources */,
-				F766D617C51DA86B4C30F40F96C0FCD0 /* BarcodeScanPlugin.m in Sources */,
-				73EEA3155BE5258FB098582011F6ECC9 /* ScannerOverlay.m in Sources */,
+				C89386DDFEC11144F321DD4C15A5B156 /* flutter_bluetooth_serial-dummy.m in Sources */,
+				FE80BFFB96440445544F1BE1DEA705B1 /* FlutterBluetoothSerialPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4458B782A53CE9E4FF69AC4488829509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1561C56CD87C200771E4BEC0C6EF01C /* Pods-Runner-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0BF4F37FAFE9DC58B99E122A738ADCED /* PBXTargetDependency */ = {
+		3F261D3F98E225CB4DC3458A298DEBAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MTBBarcodeScanner;
-			target = D83CD42EA57F97A225D24BDC7BD6B6F6 /* MTBBarcodeScanner */;
-			targetProxy = 1D68A2C6A5761348255682448823E718 /* PBXContainerItemProxy */;
+			name = qr_code_scanner;
+			target = E864A9DA72EED9027036A46ABD1822BC /* qr_code_scanner */;
+			targetProxy = B3187A318DC82A1B9FBD56AAA3A33530 /* PBXContainerItemProxy */;
 		};
-		110179AAD67F5BADE9C53E6991701064 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MTBBarcodeScanner;
-			target = D83CD42EA57F97A225D24BDC7BD6B6F6 /* MTBBarcodeScanner */;
-			targetProxy = DB4895EF26D1F763590BBF91A8AC97DF /* PBXContainerItemProxy */;
-		};
-		8B59E0CDE0E620C7BF4DF58B8ABD440B /* PBXTargetDependency */ = {
+		504E41C3527A0D0B57BA0D129D479AE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Flutter;
 			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
-			targetProxy = 17ADDABD907C02F97EDAC49D984EE464 /* PBXContainerItemProxy */;
+			targetProxy = EA4E636E0A7BA4A6D3F8C8C2FA75A095 /* PBXContainerItemProxy */;
 		};
-		B21A08AE4468F14D408C49AA13294A0A /* PBXTargetDependency */ = {
+		51D918B5DB8BCFB91D4F4B217B113DA8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Flutter;
 			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
-			targetProxy = 3E1A4F0E3E9608777F52E65C03A6B004 /* PBXContainerItemProxy */;
+			targetProxy = AB812F37FBF0DC0BA514018666E5CC14 /* PBXContainerItemProxy */;
 		};
-		B601DBCA2CC5FEC08AC1D86CD301F1DB /* PBXTargetDependency */ = {
+		70669914FCF1FFD5F7E171B5279F559D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = barcode_scan;
-			target = E6256EC9894014B4E365165FA98E237C /* barcode_scan */;
-			targetProxy = 2293E4FAA4B8C9CDFD21632FD88C04B7 /* PBXContainerItemProxy */;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = D4F7EE233A764DD451A1A00572A52628 /* PBXContainerItemProxy */;
+		};
+		8CB51FC5209FCD55A6456D6902B33C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = flutter_bluetooth_serial;
+			target = C07C7921476B420194021B682FBCAFA8 /* flutter_bluetooth_serial */;
+			targetProxy = 70E283C19B8E626D1E41DF6233154CDB /* PBXContainerItemProxy */;
+		};
+		A23F5FF45146A5C935D107382B5A2556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTBBarcodeScanner;
+			target = D83CD42EA57F97A225D24BDC7BD6B6F6 /* MTBBarcodeScanner */;
+			targetProxy = 2D103C3D3E193544F9E860E1559410F0 /* PBXContainerItemProxy */;
+		};
+		E6862765635774A9E04D2F9CA23A012E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTBBarcodeScanner;
+			target = D83CD42EA57F97A225D24BDC7BD6B6F6 /* MTBBarcodeScanner */;
+			targetProxy = 08E16AE9BE4CEBF0151022D32D585478 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		071B10594C21D60A2579CF7D792CE00B /* Profile */ = {
+		0E122A51B517AF4A99E54350C158425C /* Profile */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */;
 			buildSettings = {
@@ -755,11 +1042,10 @@
 			};
 			name = Profile;
 		};
-		195E60D6E3E60CCF3D6434E02E12FD26 /* Debug */ = {
+		21539D396C94C99E7E8AA3B32A39AB3A /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */;
+			baseConfigurationReference = 7CD474C3AD7B5F2BC632B575BE8970DF /* flutter_bluetooth_serial.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -770,24 +1056,57 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_bluetooth_serial/flutter_bluetooth_serial-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/flutter_bluetooth_serial/flutter_bluetooth_serial-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/flutter_bluetooth_serial/flutter_bluetooth_serial.modulemap";
+				PRODUCT_MODULE_NAME = flutter_bluetooth_serial;
+				PRODUCT_NAME = flutter_bluetooth_serial;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Profile;
+		};
+		406666CF9CC4DBCB08ABC282DF435376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD474C3AD7B5F2BC632B575BE8970DF /* flutter_bluetooth_serial.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_bluetooth_serial/flutter_bluetooth_serial-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/flutter_bluetooth_serial/flutter_bluetooth_serial-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/flutter_bluetooth_serial/flutter_bluetooth_serial.modulemap";
+				PRODUCT_MODULE_NAME = flutter_bluetooth_serial;
+				PRODUCT_NAME = flutter_bluetooth_serial;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -849,9 +1168,9 @@
 			};
 			name = Release;
 		};
-		5B9D355A31C3DE1261B50EB39AE96E70 /* Profile */ = {
+		50E1A9439E44B4D895CD9AE22E7A881B /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59F31A1EC662CF6A4EE8949E93DF8A8A /* barcode_scan.xcconfig */;
+			baseConfigurationReference = BEB7F3D8978AF9BD9CED8937343B95C6 /* qr_code_scanner.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -863,14 +1182,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/barcode_scan/barcode_scan-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/barcode_scan/barcode_scan-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/qr_code_scanner/qr_code_scanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/qr_code_scanner/qr_code_scanner-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/barcode_scan/barcode_scan.modulemap";
-				PRODUCT_MODULE_NAME = barcode_scan;
-				PRODUCT_NAME = barcode_scan;
+				MODULEMAP_FILE = "Target Support Files/qr_code_scanner/qr_code_scanner.modulemap";
+				PRODUCT_MODULE_NAME = qr_code_scanner;
+				PRODUCT_NAME = qr_code_scanner;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -882,9 +1201,9 @@
 			};
 			name = Profile;
 		};
-		5CBEA1227095A986276316E85F882BF8 /* Release */ = {
+		5918368D25361500985150B5AE422DF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59F31A1EC662CF6A4EE8949E93DF8A8A /* barcode_scan.xcconfig */;
+			baseConfigurationReference = 7CD474C3AD7B5F2BC632B575BE8970DF /* flutter_bluetooth_serial.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -896,14 +1215,46 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/barcode_scan/barcode_scan-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/barcode_scan/barcode_scan-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_bluetooth_serial/flutter_bluetooth_serial-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/flutter_bluetooth_serial/flutter_bluetooth_serial-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/barcode_scan/barcode_scan.modulemap";
-				PRODUCT_MODULE_NAME = barcode_scan;
-				PRODUCT_NAME = barcode_scan;
+				MODULEMAP_FILE = "Target Support Files/flutter_bluetooth_serial/flutter_bluetooth_serial.modulemap";
+				PRODUCT_MODULE_NAME = flutter_bluetooth_serial;
+				PRODUCT_NAME = flutter_bluetooth_serial;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6296B8710B419FDB37A6CE06C8C4053A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB7F3D8978AF9BD9CED8937343B95C6 /* qr_code_scanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/qr_code_scanner/qr_code_scanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/qr_code_scanner/qr_code_scanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/qr_code_scanner/qr_code_scanner.modulemap";
+				PRODUCT_MODULE_NAME = qr_code_scanner;
+				PRODUCT_NAME = qr_code_scanner;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -915,10 +1266,11 @@
 			};
 			name = Release;
 		};
-		5DEDB09BD1AFB099C48D9C426BB45220 /* Debug */ = {
+		688F4B5B246E29C241A8A494CB43BDA4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59F31A1EC662CF6A4EE8949E93DF8A8A /* barcode_scan.xcconfig */;
+			baseConfigurationReference = D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -929,23 +1281,25 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/barcode_scan/barcode_scan-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/barcode_scan/barcode_scan-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/barcode_scan/barcode_scan.modulemap";
-				PRODUCT_MODULE_NAME = barcode_scan;
-				PRODUCT_NAME = barcode_scan;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		6C5B04A6504487AB3D4EC5A82497B6F4 /* Profile */ = {
 			isa = XCBuildConfiguration;
@@ -1040,41 +1394,6 @@
 			};
 			name = Profile;
 		};
-		78A1617869422C751B1E076C6EFFA248 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1141,7 +1460,7 @@
 		};
 		895E2867E73A4F53A022BAE5AD196379 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 922FEF41A9CCCF3E7EBF9F17B3113355 /* Flutter.xcconfig */;
+			baseConfigurationReference = 91987161F9F500AA5927E157BAAB061C /* Flutter.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1188,7 +1507,7 @@
 		};
 		A94EBF4E8F127A41691C10095F7BBBA9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 922FEF41A9CCCF3E7EBF9F17B3113355 /* Flutter.xcconfig */;
+			baseConfigurationReference = 91987161F9F500AA5927E157BAAB061C /* Flutter.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1203,7 +1522,7 @@
 		};
 		B064E1C981D836A5C76FDAC49FCB568E /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 922FEF41A9CCCF3E7EBF9F17B3113355 /* Flutter.xcconfig */;
+			baseConfigurationReference = 91987161F9F500AA5927E157BAAB061C /* Flutter.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1248,6 +1567,72 @@
 			};
 			name = Debug;
 		};
+		D5CAD7444709AA3D5B2399588B21C7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB7F3D8978AF9BD9CED8937343B95C6 /* qr_code_scanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/qr_code_scanner/qr_code_scanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/qr_code_scanner/qr_code_scanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/qr_code_scanner/qr_code_scanner.modulemap";
+				PRODUCT_MODULE_NAME = qr_code_scanner;
+				PRODUCT_NAME = qr_code_scanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA30DB9CFF85062FD3F19DFCA3C53070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1271,12 +1656,12 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73B09EF84FB3FE27F58D504EA51F53F5 /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+		52106C3E24EEF55CE85CB31A8DE87B1D /* Build configuration list for PBXNativeTarget "flutter_bluetooth_serial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				195E60D6E3E60CCF3D6434E02E12FD26 /* Debug */,
-				071B10594C21D60A2579CF7D792CE00B /* Profile */,
-				78A1617869422C751B1E076C6EFFA248 /* Release */,
+				5918368D25361500985150B5AE422DF0 /* Debug */,
+				21539D396C94C99E7E8AA3B32A39AB3A /* Profile */,
+				406666CF9CC4DBCB08ABC282DF435376 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1291,12 +1676,22 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB062AD7AA1EE2339F4CAEECDE8B957F /* Build configuration list for PBXNativeTarget "barcode_scan" */ = {
+		A17D82B18550D6E734362689CBB2E62B /* Build configuration list for PBXNativeTarget "qr_code_scanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DEDB09BD1AFB099C48D9C426BB45220 /* Debug */,
-				5B9D355A31C3DE1261B50EB39AE96E70 /* Profile */,
-				5CBEA1227095A986276316E85F882BF8 /* Release */,
+				D5CAD7444709AA3D5B2399588B21C7B5 /* Debug */,
+				50E1A9439E44B4D895CD9AE22E7A881B /* Profile */,
+				6296B8710B419FDB37A6CE06C8C4053A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62240FC3F878A343101F74A3BE22153 /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA30DB9CFF85062FD3F19DFCA3C53070 /* Debug */,
+				0E122A51B517AF4A99E54350C158425C /* Profile */,
+				688F4B5B246E29C241A8A494CB43BDA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:storybook_fab/qrreader.dart';
 import 'customIcons.dart';
 import 'data.dart';
 import 'dart:math';
 import 'bookreader.dart';
-import 'package:barcode_scan/barcode_scan.dart';
 import 'package:flutter/services.dart';
 
 void main() => runApp(MaterialApp(
@@ -21,36 +21,11 @@ class MyApp extends StatefulWidget {
 var cardAspectRatio = 12.0 / 16.0;
 var widgetAspectRatio = cardAspectRatio * 1.2;
 
+const platform = const MethodChannel('com.startActivity/testChannel');
+
 class _MyAppState extends State<MyApp> {
   var currentPage = images.length - 1.0;
   String result = "Hey there !";
-
-  Future _scanQR() async {
-    try {
-      String qrResult = await BarcodeScanner.scan();
-      setState(() {
-        result = qrResult;
-      });
-    } on PlatformException catch (ex) {
-      if (ex.code == BarcodeScanner.CameraAccessDenied) {
-        setState(() {
-          result = "Camera permission was denied";
-        });
-      } else {
-        setState(() {
-          result = "Unknown Error $ex";
-        });
-      }
-    } on FormatException {
-      setState(() {
-        result = "You pressed the back button before scanning anything";
-      });
-    } catch (ex) {
-      setState(() {
-        result = "Unknown Error $ex";
-      });
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -84,11 +59,13 @@ class _MyAppState extends State<MyApp> {
                   children: <Widget>[
                     IconButton(
                       icon: Icon(
-                        CustomIcons.menu,
-                        color: Colors.white,
+                        Icons.bluetooth,
                         size: 30.0,
+                        color: Colors.white,
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        _startActivity();
+                      },
                     ),
                     IconButton(
                       icon: Icon(
@@ -106,7 +83,7 @@ class _MyAppState extends State<MyApp> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
-                    Text("Cuentos",
+                    Text("Stories",
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 46.0,
@@ -120,12 +97,13 @@ class _MyAppState extends State<MyApp> {
                         color: Colors.white,
                       ),
                       onPressed: () {
-                        Navigator.push(
+                        _startActivity();
+                        /*Navigator.push(
                           context,
                           MaterialPageRoute(builder: (context) {
                             return BookReader();
                           }),
-                        );
+                        );*/
                       },
                     )
                   ],
@@ -182,7 +160,7 @@ class _MyAppState extends State<MyApp> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
-                    Text("Escanea un cuento",
+                    Text("Tell me a story",
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 36.0,
@@ -201,8 +179,15 @@ class _MyAppState extends State<MyApp> {
                   children: <Widget>[
                     FloatingActionButton.extended(
                         icon: Icon(Icons.camera_alt),
-                        label: Text("Scan"),
-                        onPressed: null),
+                        label: Text("Scan a story"),
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) {
+                            return QrReader();
+                          }),
+                        );
+                      } ),
                     SizedBox(
                       width: 15.0,
                     ),
@@ -214,6 +199,15 @@ class _MyAppState extends State<MyApp> {
         ),
       ),
     );
+  }
+}
+
+Future<void> _startActivity() async {
+  try {
+    final String result = await platform.invokeMethod('StartSecondActivity');
+    debugPrint('Result: $result ');
+  } on PlatformException catch (e) {
+    debugPrint("Error: '${e.message}'.");
   }
 }
 

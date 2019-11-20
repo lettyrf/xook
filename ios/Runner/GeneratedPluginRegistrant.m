@@ -3,12 +3,14 @@
 //
 
 #import "GeneratedPluginRegistrant.h"
-#import <barcode_scan/BarcodeScanPlugin.h>
+#import <flutter_bluetooth_serial/FlutterBluetoothSerialPlugin.h>
+#import <qr_code_scanner/FlutterQrPlugin.h>
 
 @implementation GeneratedPluginRegistrant
 
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {
-  [BarcodeScanPlugin registerWithRegistrar:[registry registrarForPlugin:@"BarcodeScanPlugin"]];
+  [FlutterBluetoothSerialPlugin registerWithRegistrar:[registry registrarForPlugin:@"FlutterBluetoothSerialPlugin"]];
+  [FlutterQrPlugin registerWithRegistrar:[registry registrarForPlugin:@"FlutterQrPlugin"]];
 }
 
 @end

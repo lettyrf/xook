@@ -163,17 +163,20 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_ROOT}/../.symlinks/flutter/ios/Flutter.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MTBBarcodeScanner/MTBBarcodeScanner.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/barcode_scan/barcode_scan.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/flutter_bluetooth_serial/flutter_bluetooth_serial.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/qr_code_scanner/qr_code_scanner.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/../.symlinks/flutter/ios/Flutter.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MTBBarcodeScanner/MTBBarcodeScanner.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/barcode_scan/barcode_scan.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/flutter_bluetooth_serial/flutter_bluetooth_serial.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/qr_code_scanner/qr_code_scanner.framework"
 fi
 if [[ "$CONFIGURATION" == "Profile" ]]; then
   install_framework "${PODS_ROOT}/../.symlinks/flutter/ios/Flutter.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MTBBarcodeScanner/MTBBarcodeScanner.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/barcode_scan/barcode_scan.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/flutter_bluetooth_serial/flutter_bluetooth_serial.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/qr_code_scanner/qr_code_scanner.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

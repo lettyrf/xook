@@ -19,7 +19,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>barcode_scan.xcscheme</key>
+		<key>flutter_bluetooth_serial.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>qr_code_scanner.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

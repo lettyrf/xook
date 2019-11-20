@@ -1,0 +1,6 @@
+framework module flutter_bluetooth_serial {
+  umbrella header "flutter_bluetooth_serial-umbrella.h"
+
+  export *
+  module * { export * }
+}
