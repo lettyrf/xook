@@ -25,6 +25,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   qr_code_scanner: 0.0.12
   flutter_bluetooth_serial: ^0.0.4
+  audioplayers: ^0.13.3
 
 dev_dependencies:
   flutter_test:
@@ -60,7 +61,10 @@ flutter:
     - assets/10.jpg
     - assets/11.jpg
     - assets/xolo.jpg
-
+    - assets/IN-A0015.WAV
+    - assets/IN-A0016.WAV
+    - assets/IN-A0017.WAV
+    - assets/sonido1.mp3
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.

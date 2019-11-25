@@ -97,7 +97,7 @@ class _MyAppState extends State<MyApp> {
                         color: Colors.white,
                       ),
                       onPressed: () {
-                        _startActivity();
+                        _startActivity2();
                         /*Navigator.push(
                           context,
                           MaterialPageRoute(builder: (context) {
@@ -194,6 +194,62 @@ class _MyAppState extends State<MyApp> {
                   ],
                 ),
               ),
+
+              Padding(
+                padding: const EdgeInsets.only(
+                    left: 12.0, bottom: 12.0),
+                child: RaisedButton(
+                  child: Text("Read Later",
+                      style: TextStyle(color: Colors.white)),
+                  color: Colors.blueAccent,
+                  splashColor: Colors.lightBlue,
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20.0)
+                  ),
+                  onPressed: (){
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) {
+                        return BookReader();
+                      }),
+                    );
+                  },
+                ),
+                /*child: Container(
+                                padding: EdgeInsets.symmetric(
+                                    horizontal: 22.0, vertical: 6.0),
+                                decoration: BoxDecoration(
+                                    color: Colors.blueAccent,
+                                    borderRadius: BorderRadius.circular(20.0)),
+                                child: Text("Read Later",
+                                    style: TextStyle(color: Colors.white)),
+                              ),*/
+              ),
+              /*Padding(
+                padding: const EdgeInsets.only(right: 24, left: 24, bottom: 12),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(16.0),
+                  child: Container(
+                    decoration: BoxDecoration(color: Colors.white, boxShadow: [
+                      BoxShadow(
+                          color: Colors.black12,
+                          offset: Offset(3.0, 6.0),
+                          blurRadius: 10.0)
+                    ]),
+                    child: AspectRatio(
+                      aspectRatio: cardAspectRatio,
+                      child: Stack(
+                        fit: StackFit.expand,
+                        children: <Widget>[
+                          Hero(
+                              tag: "avatar_" + 3.toString(),
+                              child: Image.asset(images[3], fit: BoxFit.cover)),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ),*/
             ],
           ),
         ),
@@ -205,6 +261,15 @@ class _MyAppState extends State<MyApp> {
 Future<void> _startActivity() async {
   try {
     final String result = await platform.invokeMethod('StartSecondActivity');
+    debugPrint('Result: $result ');
+  } on PlatformException catch (e) {
+    debugPrint("Error: '${e.message}'.");
+  }
+}
+
+Future<void> _startActivity2() async {
+  try {
+    final String result = await platform.invokeMethod('StartStoryActivity');
     debugPrint('Result: $result ');
   } on PlatformException catch (e) {
     debugPrint("Error: '${e.message}'.");
@@ -266,7 +331,9 @@ class CardScrollWidget extends StatelessWidget {
                   child: Stack(
                     fit: StackFit.expand,
                     children: <Widget>[
-                      Image.asset(images[i], fit: BoxFit.cover),
+                      Hero(
+                          tag: "avatar_" + i.toString(),
+                          child: Image.asset(images[i], fit: BoxFit.cover)),
                       Align(
                         alignment: Alignment.bottomLeft,
                         child: Column(
@@ -288,7 +355,24 @@ class CardScrollWidget extends StatelessWidget {
                             Padding(
                               padding: const EdgeInsets.only(
                                   left: 12.0, bottom: 12.0),
-                              child: Container(
+                              child: RaisedButton(
+                                child: Text("Read Later",
+                                    style: TextStyle(color: Colors.white)),
+                                color: Colors.blueAccent,
+                                splashColor: Colors.lightBlue,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20.0)
+                                ),
+                                onPressed: (){
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(builder: (context) {
+                                      return BookReader();
+                                    }),
+                                  );
+                                },
+                              ),
+                              /*child: Container(
                                 padding: EdgeInsets.symmetric(
                                     horizontal: 22.0, vertical: 6.0),
                                 decoration: BoxDecoration(
@@ -296,7 +380,7 @@ class CardScrollWidget extends StatelessWidget {
                                     borderRadius: BorderRadius.circular(20.0)),
                                 child: Text("Read Later",
                                     style: TextStyle(color: Colors.white)),
-                              ),
+                              ),*/
                             )
                           ],
                         ),

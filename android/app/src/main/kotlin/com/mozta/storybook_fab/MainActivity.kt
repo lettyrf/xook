@@ -22,6 +22,15 @@ class MainActivity: FlutterActivity() {
       else{
         result.notImplemented()
       }
+
+      if(call.method.equals("StartStoryActivity")){
+        val intent= Intent(this,StoryActivity::class.java)
+        startActivity(intent)
+        result.success("ActivityStarted")
+      }
+      else{
+        result.notImplemented()
+      }
     }
   }
 }

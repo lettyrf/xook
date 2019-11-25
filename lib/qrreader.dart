@@ -3,6 +3,7 @@ import 'package:qr_code_scanner/qr_code_scanner.dart';
 import 'package:qr_code_scanner/qr_scanner_overlay_shape.dart';
 import 'package:storybook_fab/bookreader.dart';
 import 'package:storybook_fab/main.dart';
+import 'package:flutter/services.dart';
 
 void main() => runApp(MaterialApp(home: QrReader(),));
 
@@ -68,12 +69,13 @@ class _MyAppState extends State<QrReader> {
 
         switch(scanData.toString()){
           case "Xolo":{
-            Navigator.pushReplacement(
+            /*Navigator.pushReplacement(
               context,
               MaterialPageRoute(builder: (context) {
                 return BookReader();
               }),
-            );
+            );*/
+            _startActivity2();
           }
           break;
           case "Catrina":{
@@ -111,5 +113,13 @@ class _MyAppState extends State<QrReader> {
         }
       });
     });
+  }
+}
+Future<void> _startActivity2() async {
+  try {
+    final String result = await platform.invokeMethod('StartStoryActivity');
+    debugPrint('Result: $result ');
+  } on PlatformException catch (e) {
+    debugPrint("Error: '${e.message}'.");
   }
 }

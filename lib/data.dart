@@ -11,3 +11,10 @@ List<String> title = [
   "Catrina",
   "Xoloitzcuintle",
 ];
+
+List<String> xolo = [
+  "Were considered sacred",
+  "Xolitzcuintles",
+  "in a different civilization",
+  "Many years ago",
+];
